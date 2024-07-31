@@ -1,0 +1,265 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* shared-style */
+.text-primary {
+    color: rgb(253, 110, 10);
+}
+
+.secondary-bg {
+    background-color: rgb(255, 248, 243);
+}
+
+.dark-01 {
+    color: rgb(24, 24, 24);
+}
+
+.dark-02 {
+    color: rgb(71, 71, 71);
+}
+
+.dark-03 {
+    color: rgb(117, 117, 117);
+}
+
+.text-position {
+    text-align: center;
+}
+
+
+header {
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+}
+
+/* nav styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 230px;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    padding: 18px 36px;
+    color: white;
+    Font-weight: 700;
+    Font-size: 20px;
+    border: none;
+}
+
+/* banner styles */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 230px;
+}
+
+.banner-content {
+    max-width: 585px;
+}
+
+.banner .banner-greeting {
+    color: rgb(71, 71, 71);
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner .banner-title {
+    color: rgb(24, 24, 24);
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner .banner-description {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner .banner-profile-picture {
+    width: 584px;
+}
+
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.section-title {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card-description {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* about styles */
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-container {
+    background-color: white;
+}
+
+.item-description {
+    font-weight: bold;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* what i do style */
+
+.do {
+    margin-top: 130px;
+}
+
+.do-info {
+    width: 909px;
+    margin: 0 auto 50px;
+
+}
+
+.do-items {
+    display: flex;
+    gap: 24px;
+}
+
+/* card design */
+
+.cards {
+    max-width: 267px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    padding: 30px 33px;
+}
+
+/* resume section */
+.resume {
+    margin-top: 130px;
+    margin-bottom: 113px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 50px;
+    margin-top: 130px;
+
+}
+
+.resume-cell {
+    max-width: 511px;
+    margin: 30px 71px 30px 0;
+}
+
+hr {
+    /* Dark 05 */
+    border: 1px solid rgb(209, 209, 209);
+}
+
+.resume-title {
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-section {
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.resume-subsection {
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* footer design */
+
+.footer {
+    display: flex;
+    padding: 138px 230px;
+    justify-content: space-between;
+
+}
+
+form input[type="text"],form input[type="email"],form textarea {
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border:none;
+}
+
+.footer-description{
+    width: 560px;
+}
